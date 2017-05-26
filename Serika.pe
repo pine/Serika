@@ -1,5 +1,14 @@
 #!/usr/bin/env fontforge
 
+Print('Open uzura')
+Open('uzura.ttf')
+SelectWorthOutputting()
+UnlinkReference()
+ScaleToEm(860, 140)
+ClearInstrs()
+Generate('modified_uzura.ttf', '')
+Close()
+
 Print('Open SourceCodePro')
 Open('SourceCodePro-Regular.ttf')
 SelectWorthOutputting()
@@ -7,16 +16,9 @@ UnlinkReference()
 ScaleToEm(860, 140)
 ClearInstrs()
 
-Print('Open uzura')
-Open('uzura.ttf')
-SetUniqueID(0)
-SelectWorthOutputting()
-UnlinkReference()
-ScaleToEm(860, 140)
-ClearInstrs()
-
 Print('Merge fonts')
-MergeFonts('SourceCodePro-Regular.ttf')
+MergeFonts('modified_uzura.ttf')
+SetUniqueID(0)
 SetFontNames('Serika-Regular', 'Serika', 'Serika')
 SetTTFName(0x409, 1, 'Serika')
 SetTTFName(0x409, 2, 'Regular')
