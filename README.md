@@ -3,6 +3,7 @@ Serika
 
 A cute and violent font for programmer like Serika.
 
+![](Serika.png)
 
 ## Requirements
 
