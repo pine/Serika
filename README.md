@@ -30,6 +30,8 @@ Next, download original fonts.
   - https://github.com/adobe-fonts/source-code-pro/releases
 - uzura.ttf
   - http://azukifont.com/font/uzura.html
+- D2Coding-Ver1.3-20171129.ttf
+  - https://github.com/naver/d2codingfont
 
 Finally, run merge script.
 
